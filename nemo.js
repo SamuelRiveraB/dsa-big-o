@@ -36,3 +36,15 @@ function logFirst(boxes) {
 logFirst(boxes);
 
 // logFirst is O(1)
+
+function logAllPairsOfArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+      console.log(array[i], array[j]);
+    }
+  }
+}
+
+logAllPairsOfArray(boxes);
+
+// logAllPairsOfArray is O(n^2)
