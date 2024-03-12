@@ -25,3 +25,14 @@ function findNemo(array) {
 }
 
 findNemo(large);
+
+// findNemo is O(n)
+
+const boxes = [0, 1, 2, 3, 4, 5];
+function logFirst(boxes) {
+  console.log(boxes[0]);
+}
+
+logFirst(boxes);
+
+// logFirst is O(1)
