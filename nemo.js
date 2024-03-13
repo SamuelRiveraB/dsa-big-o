@@ -87,10 +87,21 @@ const array = [
 
 // findNemo2
 
-const findeNemo2 = (array) => {
+const findNemo2 = (array) => {
   array.forEach((fish) => {
     if (fish === "nemo") {
       console.log("Found NEMO!");
     }
   });
 };
+
+const findNemo3 = (array) => {
+  for (let fish of array) {
+    if (fish === "nemo") {
+      console.log("Found NEMO!");
+    }
+  }
+};
+
+findNemo2(everyone);
+findNemo3(everyone);
