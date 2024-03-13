@@ -50,3 +50,15 @@ function logAllPairsOfArray(array) {
 }
 
 logAllPairsOfArray(boxes);
+
+// Space complexity
+
+// boo is O(1)
+
+function boo(n) {
+  for (let i = 0; i < n.length; i++) {
+    console.log("Boooo!");
+  }
+}
+
+boo([1, 2, 3, 4, 5]);
