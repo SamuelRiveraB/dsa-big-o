@@ -1,3 +1,7 @@
+// Time complexity
+
+// findNemo is O(n)
+
 const nemo = ["nemo"];
 const everyone = [
   "dory",
@@ -26,7 +30,7 @@ function findNemo(array) {
 
 findNemo(large);
 
-// findNemo is O(n)
+// logFirst is O(1)
 
 const boxes = [0, 1, 2, 3, 4, 5];
 function logFirst(boxes) {
@@ -35,7 +39,7 @@ function logFirst(boxes) {
 
 logFirst(boxes);
 
-// logFirst is O(1)
+// logAllPairsOfArray is O(n^2)
 
 function logAllPairsOfArray(array) {
   for (let i = 0; i < array.length; i++) {
@@ -46,5 +50,3 @@ function logAllPairsOfArray(array) {
 }
 
 logAllPairsOfArray(boxes);
-
-// logAllPairsOfArray is O(n^2)
