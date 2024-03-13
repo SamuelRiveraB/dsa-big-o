@@ -83,3 +83,14 @@ const array = [
   ,
   { tweet: "teddy", date: 2018 },
 ];
+// Calculate dates between tweets
+
+// findNemo2
+
+const findeNemo2 = (array) => {
+  array.forEach((fish) => {
+    if (fish === "nemo") {
+      console.log("Found NEMO!");
+    }
+  });
+};
